@@ -110,4 +110,8 @@ public class CvController {
         request.setUserId(currentUser.getId());
         return new ResponseBase<>(cvService.findAllCv(request));
     }
+    @GetMapping("/dathem")
+    public ResponseBase<String> findAllCvaa(){
+        return new ResponseBase<>("da them");
+    }
 }
