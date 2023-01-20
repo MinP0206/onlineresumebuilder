@@ -112,6 +112,6 @@ public class CvController {
     }
     @GetMapping("/dathem")
     public ResponseBase<String> findAllCvaa(){
-        return new ResponseBase<>("da them");
+        return new ResponseBase<>("đa chinh sua va push len ban moi nhat");
     }
 }
